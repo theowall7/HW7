@@ -13,7 +13,7 @@ for circleX = 100, 650, 100 do
 end
   for i = 1, 3, 1 do
   noStroke()
-  fill (random (255, 72, 176),random(0,120, 191), random (255, 232, 0))
+  fill (random(0,120, 191), random (255, 72, 176), random (255, 232, 0))
   ellipse(1+i*200,100, 60,80)
 
 end
